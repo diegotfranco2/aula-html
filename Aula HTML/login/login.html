@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Madrigal - Pagina Login</title>
+  <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
-  <main style="border: 1px solid black">
+  <main>
     <h1>Entrar</h1>
     <h6>Por favor faça seu login</h6>
 
@@ -16,16 +17,16 @@
     <!-- cammelCase -->
     <!-- PascalCase -->
     <!-- kebab-case -->
+    <form>
+      <label for="campoEmail">E-mail</label>
+      <input id="campoEmail" placeholder="email@exemplo.com" type="text">
 
-    <label for="campoEmail">E-mail</label>
-    <input id="campoEmail" placeholder="email@exemplo.com" type="text">
-
-    <label for="campoSenha">Senha</label>
-    <input id="campoSenha" type="password" placeholder="**************" />
-    <button>confirmar</button>
+      <label for="campoSenha">Senha</label>
+      <input id="campoSenha" type="password" placeholder="**************" />
+      <button>confirmar</button>
+    </form>
     <a href="#">Ainda não tem cadastro?</a>
   </main>
-  <img src="logo.png" width="200" height="200" alt="uma logo bem legal" />
 </body>
 
 </html>
